@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    android:elevation="5dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/type_expense_ds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Type"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/teal_700" />
+
+        <TextView
+            android:id="@+id/amount_expense_ds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Amount"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/teal_200"/>
+
+        <TextView
+            android:id="@+id/date_expense_ds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="10_june_2018"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/income_color"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

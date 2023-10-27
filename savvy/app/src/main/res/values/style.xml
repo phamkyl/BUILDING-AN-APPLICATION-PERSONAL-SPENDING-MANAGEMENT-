@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <!--Customize theme here-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="colorPrimary">@color/purple_500</item>
+            <item name="colorPrimaryDark">@color/purple_700</item>
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="drawerArrowStyle">@style/DrawerIconStyle</item>
+        </style>
+        <style name="DrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+            <item name="color">@android:color/white</item>
+        </style>
+
+</resources>

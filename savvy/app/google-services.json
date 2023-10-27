@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1084613896363",
+    "project_id": "savevvy",
+    "storage_bucket": "savevvy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084613896363:android:521814cf6ba053fdd2afee",
+        "android_client_info": {
+          "package_name": "com.savevvy.savvy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084613896363-dtsaujn6jc2mbe26rihoc0linll0h3tt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.savevvy.savvy",
+            "certificate_hash": "4ac4f71a539a9c2810462b1fae89b602cded3234"
+          }
+        },
+        {
+          "client_id": "1084613896363-1tjg0qtgo921uusho62ct4vkah4j8q4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPkaPW0neuGg8zJmvTJdIlefMoJi8mBjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084613896363-1tjg0qtgo921uusho62ct4vkah4j8q4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
